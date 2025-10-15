@@ -1,0 +1,27 @@
+### OS ###
+.DS_Store
+Thumbs.db
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+out/
+
+### VS Code (если используешь) ###
+.vscode/
+
+### Java ###
+*.class
+*.log
+
+### Maven ###
+target/
+# оставляем wrapper в репо
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+### Gradle ###
+.gradle/
+build/
+# оставляем wrapper в репо
+!gradle/wrapper/gradle-wrapper.jar
